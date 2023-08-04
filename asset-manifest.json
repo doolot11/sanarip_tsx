@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sanarip_tsx/static/css/main.e6c13ad2.css",
+    "main.js": "/sanarip_tsx/static/js/main.63a08c4e.js",
+    "static/media/backgroundwether.jpg": "/sanarip_tsx/static/media/backgroundwether.00a34bb800ff1d149a7d.jpg",
+    "static/media/weather-icon.svg": "/sanarip_tsx/static/media/weather-icon.92140f7dd2e4a26ea3eb40d46eefd48e.svg",
+    "static/media/humidity.svg": "/sanarip_tsx/static/media/humidity.0a6f8a7c4ef18aeb14772fbae5a0360e.svg",
+    "static/media/wind.svg": "/sanarip_tsx/static/media/wind.9399219d9ba973d928a5a32fedf6da87.svg",
+    "index.html": "/sanarip_tsx/index.html",
+    "static/media/searchicon.svg": "/sanarip_tsx/static/media/searchicon.1769b6c6ab46db7597ba8fdc882cc806.svg",
+    "static/media/goback.svg": "/sanarip_tsx/static/media/goback.ecc94aad7ec1b3a2b75246d01db3288d.svg",
+    "main.e6c13ad2.css.map": "/sanarip_tsx/static/css/main.e6c13ad2.css.map",
+    "main.63a08c4e.js.map": "/sanarip_tsx/static/js/main.63a08c4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.63a08c4e.js"
+  ]
+}
