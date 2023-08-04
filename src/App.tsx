@@ -1,11 +1,9 @@
-import React from 'react';
-import './App.css';
+import AllRoute from "./router/AllRoute"
 
 function App() {
   return (
-    <div >
-    </div>
-  );
+    <AllRoute />
+  )
 }
 
-export default App;
+export default App
