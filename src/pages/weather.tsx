@@ -13,12 +13,26 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
+interface main {
+  humidity: string,
+  temp: string,
+}
+interface wind {
+  speed: string
+}
+interface PropsWeather {
+  message: string,
+  name: string,
+  main: main,
+  wind: wind,
+}
+
 function Weather() {
   const navigate = useNavigate();
-  const [currentCity, setCurrentCity] = useState("");
-  const [search, setSearch] = useState("");
-  const [dataWeather, setDataWeather] = useState({});
-  const [errorLocation, setErrorLocation] = useState("");
+  const [currentCity, setCurrentCity] = useState<string>("");
+  const [search, setSearch] = useState<string>("");
+  const [dataWeather, setDataWeather] = useState<PropsWeather>();
+  const [errorLocation, setErrorLocation] = useState<string>("");
 
   useEffect(() => {
     if (navigator?.geolocation) {
@@ -36,11 +50,11 @@ function Weather() {
                 setCurrentCity(city);
               });
           } catch (error) {
-            setErrorLocation("Error fetching city:", error);
+            setErrorLocation("Error fetching city:");
           }
         },
         (error) => {
-          setErrorLocation("Error getting geolocation", error);
+          setErrorLocation("Error getting geolocation");
         }
       );
 
